@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Enquiry Insurance ChatBot</title>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  chat-icon="https:&#x2F;&#x2F;cdn4.vectorstock.com&#x2F;i&#x2F;1000x1000&#x2F;81&#x2F;78&#x2F;chatbot-icon-outline-robot-sign-on-a-blue-vector-19838178.jpg"
+  intent="WELCOME"
+  chat-title="Robo"
+  agent-id="787f27ab-35c6-4be4-9d38-fe1f0e7101e9"
+  language-code="en"
+></df-messenger>
+<style>
+    df-messenger {
+     --df-messenger-bot-message: #929cc7;
+     --df-messenger-button-titlebar-color: #1e3c7c;
+     --df-messenger-chat-background-color: hsla(90, 63%, 97%, 0.61);
+     --df-messenger-font-color: white;
+     --df-messenger-send-icon: #878fac;
+     --df-messenger-user-message: #e9876f;
+     --df-messenger-input-box-color: hsl(93, 65%, 97%);
+    }
+  </style>
+  <style>
+    .ex1 {
+      background-color: hsla(50, 6%, 61%, 0.493);
+      width: 350px;
+      height: 300px;
+      overflow: scroll;
+      margin: 10px;
+      padding: 20px;
+      color: black;
+      box-shadow: 5px 5px 5px rgb(173, 172, 172);
+    }
+    .box-1{
+        margin: 15px;
+        padding: 20px;
+        
+    }
+    
+    .footer{
+        background-color: hsla(50, 6%, 61%, 0.493);
+        position: absolute;
+        bottom: 0px;
+        margin: 10px;
+        border-radius: 5%;
+        padding: 10px;
+        font-size: 18px;
+        box-shadow: 5px 5px 5px rgb(173, 172, 172);
+        font-weight: bold;
+    }
+    body{
+        background-image: url('img3.jpeg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        font-family: sans-serif; 
+        
+    }
+    body::before{
+        
+        background: rgba(0, 0, 0, 0.2);
+    }
+    .topic{
+        background-color: hsla(50, 6%, 61%, 0.293);
+        background-size: cover;
+        
+    }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="topic">
+        <center><h1>Panacea Health Insurance Company Ltd</h1></center>
+    </div>
+        <div style="display: flex;margin-left: 100px;">
+            <div class="box-1"><h2>Plan A: Optimal Benefit</h2>
+            <div class="ex1">We have our Health Insurance Plan "Optimum Benefit". <br>Below are the features of our plan-<br>
+
+                1.        In Patient Hospitalization Covered up to the sum insured. No limits on any category of room even suite is covered<br>
+                2.        Pre & Post Hospitalization is covered for 60 Days & 180 Days<br>
+                3.        All Day care surgeries are covered means - surgeries which do not require any hospitalization such as cateract stones etc there also claim will be settled as per actual's.<br>
+                4.        Domiciliary treatment - Covered upto the the Sum Insured No limits. Only subject to in writing from the treating doctor that the patient is not in a condition to go hospital or beds are not available in the hospital hence domiciliary treatment is need.<br>
+                5.        Ambulance is covered for Rs 2K per hospitalization.<br>
+                6.        Daily cash for 800/- per day max up to RS 4800 for choosing a shared accommodation<br>
+                7.        Air Ambulance - 2.5 Lakhs per hospitalization<br>
+                8.        Restore benefit -- 100% of Sum Inured. Irrespective of if the base sum insured is exhausted or not.<br>
+                9.        Cumulative bonus - 50% of the base sum insured upto 100%. If there are two continuous claim free years, the sum insured will be just double in two years.<br>
+                10.       Health check ups can be availed for 5000. <br>
+                11.       Organ Donor expenses covered upto sum insured.
+                
+                </div></div>
+            
+            <div class="box-1"><h2>Plan B :Health Suraksha Plus</h2>
+                <div class="ex1">We have our Health Insurance Plan "Health Suraksha Plus". <br>Below are the features of our plan-<br>
+
+                    1.        No Sub Limits & Co Payments in the policy<br>
+                    2.        Room Rent, ICU, Doctors consultancy and related expenses are as per the actual<br>
+                    3.        Mental Health care covered<br>
+                    4.        Home Health care pays for hospitalization at home thru our specific vendors and that too on cashless basis - Gastroenteritis,  Bronchopneumonia, Respiratory tract infection, Chemotherapy, Pancreatitis, Dengue, COPD management,Hepatitis, Fever management<br>
+                    5.        Domiciliary Hospitalization<br>
+                    6.        Cumulative bonus is 10% every year & max up to 100% in 10 Lakhs of Sum Insured and 200% in above 10 Lakhs Sum Insured<br>
+                    7.        Pre & Post Hospitalization is 60 & 180 Days respectively<br>
+                    8.        Road ambulance 3500/-  in 10 Lakhs of Sum Insured<br>
+                    9.        Organ donor expenses are covered<br>
+                    10.       All day care procedure are covered which does not need hospitalization of 24 Hrs<br>
+                    11.       Alternative treatment like Ayurvedi, Homeopathic, Unani & Sidha treatment are covered<br>  
+                    12        Recovery benefit is 25K in above 10 Lakhs of Sum Insured - Pays as specified amount if insured exceed hospitalization beyond 10 days<br>
+                    14.       Preventive health check-ups are provided every year irrespective of claims - Chest X Ray, 2D Echo/ Stress test, PSA for Males, PAP smear for Females, Medical Examination Report, Complete Blood Count Urine R, Fasting Blood Sugar, Serum Creatinine, Lipid Proﬁle, Electro Cardio Gram<br>
+                    15.       Sum Insured ReBound -- Equivalent of base sum insured
+                    16. Air Ambulance is covered upto 2 Lakhs</div></div>
+        </div>
+    
+        <div>
+            <h2 style="bottom: 150px;position: absolute;margin-left: 25px;">Presented By Group 14:</h2>
+            <div class="footer">
+                <p>Chandrashekhar  - 21030242015  |  Konkona Baruah  - 21030242030 |  Ojaswi Pratulya - 21030242036</p>
+                <center><p>Tanvi Senjaliya - 21030242060  |  Vanshika Bhatia - 21030242064</p></center>
+               
+            </div>
+        </div>
+    
+    
+    </div>
+    </body>
+
+</html>
